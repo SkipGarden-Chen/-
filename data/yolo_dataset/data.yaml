@@ -1,0 +1,14 @@
+path: data/yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: outcrop
+  1: bedding
+  2: joint_fracture
+  3: fault
+  4: fold
+  5: lithologic_boundary
+  6: strata_line
+
