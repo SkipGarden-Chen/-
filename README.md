@@ -23,34 +23,36 @@
 
 ## 运行
 
+在项目根目录运行以下命令。
+
 一键运行 M1-M5 完整流程：
 
 ```powershell
-& 'C:\Users\Saki\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' .\src\run_pipeline.py
+python .\src\run_pipeline.py
 ```
 
 指定表格目录、输出目录和可选 YOLO 模型：
 
 ```powershell
-& 'C:\Users\Saki\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' .\src\run_pipeline.py --input .\data\tables --output .\outputs --model .\models\geo_yolo.pt
+python .\src\run_pipeline.py --input .\data\tables --output .\outputs --model .\models\geo_yolo.pt
 ```
 
 只运行最终绘图脚本：
 
 ```powershell
-& 'C:\Users\Saki\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' .\src\section_drawer.py
+python .\src\section_drawer.py
 ```
 
 指定表格目录和输出文件：
 
 ```powershell
-& 'C:\Users\Saki\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' .\src\section_drawer.py --input .\data\tables --output .\outputs\section_D.svg
+python .\src\section_drawer.py --input .\data\tables --output .\outputs\section_D.svg
 ```
 
 如果你把 5 张表放在一个 Excel 文件里，工作表名保持为 `section_info`、`topography`、`units`、`structures`、`observations`，也可以这样运行：
 
 ```powershell
-& 'C:\Users\Saki\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' .\src\section_drawer.py --input .\GeoAgent_section_input.xlsx --output .\outputs\section_D.svg
+python .\src\section_drawer.py --input .\GeoAgent_section_input.xlsx --output .\outputs\section_D.svg
 ```
 
 ## 输出
