@@ -1,0 +1,57 @@
+[
+  {
+    "section_id": "D",
+    "point_id": "P01",
+    "distance_m": 8.0,
+    "lithology_ai": "中粒石英砂岩",
+    "features": "cross_bedding;bedding",
+    "qwen_description": "发育交错层理",
+    "interpretation": "中粒石英砂岩。发育交错层理 AI识别到的主要现象包括：cross_bedding;bedding。",
+    "human_note": "与D1层一致",
+    "used_in_section": "yes"
+  },
+  {
+    "section_id": "D",
+    "point_id": "P02",
+    "distance_m": 28.0,
+    "lithology_ai": "中粒石英砂岩",
+    "features": "bedding",
+    "qwen_description": "层理较清楚",
+    "interpretation": "中粒石英砂岩。层理较清楚 AI识别到的主要现象包括：bedding。",
+    "human_note": "用于约束D1层上界",
+    "used_in_section": "yes"
+  },
+  {
+    "section_id": "D",
+    "point_id": "P03",
+    "distance_m": 48.0,
+    "lithology_ai": "灰黑色泥岩",
+    "features": "bedding",
+    "qwen_description": "薄层状泥岩",
+    "interpretation": "灰黑色泥岩。薄层状泥岩 AI识别到的主要现象包括：bedding。",
+    "human_note": "与D2层一致",
+    "used_in_section": "yes"
+  },
+  {
+    "section_id": "D",
+    "point_id": "P04",
+    "distance_m": 72.0,
+    "lithology_ai": "断层破碎带",
+    "features": "fault;joint",
+    "qwen_description": "可能为小型断层",
+    "interpretation": "断层破碎带。可能为小型断层 AI识别到的主要现象包括：fault;joint。",
+    "human_note": "现场见破碎带并确认断层",
+    "used_in_section": "yes"
+  },
+  {
+    "section_id": "D",
+    "point_id": "P05",
+    "distance_m": 98.0,
+    "lithology_ai": "灰白色中厚层灰岩",
+    "features": "joint;bedding",
+    "qwen_description": "灰岩发育节理",
+    "interpretation": "灰白色中厚层灰岩。灰岩发育节理 AI识别到的主要现象包括：joint;bedding。",
+    "human_note": "与D3层一致",
+    "used_in_section": "yes"
+  }
+]

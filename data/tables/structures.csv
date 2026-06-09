@@ -1,0 +1,4 @@
+﻿section_id,structure_id,type,distance_m,from_m,to_m,dip_direction_deg,dip_angle_deg,evidence,yolo_result,qwen_interpretation,human_check,final_result,photo_ids,notes
+D,F1,fault,72,,,130,65,线性沟谷/岩石破碎/节理密集,fault:0.76,可能为小型断层,确认,断层,P04,控制D2与D3接触关系
+D,J1,joint_zone,96,90,103,120,75,节理密集但未见明显错断,joint:0.88,可能为节理密集带,确认,节理密集带,P05,局部构造现象
+

@@ -1,0 +1,6 @@
+﻿section_id,point_id,distance_m,photo_id,photo_path,sample_id,field_lithology,attitude,dip_direction_deg,dip_angle_deg,yolo_result,qwen_description,human_note,used_in_section
+D,P01,8,P01,data/photos/P01.jpg,D-01-R-01,中粒石英砂岩,145/70,145,70,cross_bedding:0.91;bedding:0.86,发育交错层理,与D1层一致,yes
+D,P02,28,P02,data/photos/P02.jpg,,中粒石英砂岩,145/70,145,70,bedding:0.80,层理较清楚,用于约束D1层上界,yes
+D,P03,48,P03,data/photos/P03.jpg,D-02-R-01,灰黑色泥岩,150/72,150,72,bedding:0.82,薄层状泥岩,与D2层一致,yes
+D,P04,72,P04,data/photos/P04.jpg,,断层破碎带,130/65,130,65,fault:0.76;joint:0.70,可能为小型断层,现场见破碎带并确认断层,yes
+D,P05,98,P05,data/photos/P05.jpg,D-03-R-01,灰白色中厚层灰岩,148/68,148,68,joint:0.88;bedding:0.72,灰岩发育节理,与D3层一致,yes

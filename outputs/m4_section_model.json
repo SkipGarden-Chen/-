@@ -1,0 +1,47 @@
+{
+  "section": {
+    "section_id": "D",
+    "section_name": "D路线AI辅助实测剖面",
+    "scale": "1:1000",
+    "start_point": "A点",
+    "end_point": "B点",
+    "azimuth_deg": "65",
+    "total_length_m": "120",
+    "date": "2026-08-28",
+    "team": "AI赛道示例组",
+    "notes": "示例数据可按比赛现场记录替换"
+  },
+  "topography_point_count": 9,
+  "unit_count": 3,
+  "structure_count": 2,
+  "warnings": [],
+  "units": [
+    {
+      "unit_id": "D1",
+      "from_m": 0.0,
+      "to_m": 35.0,
+      "lithology": "中粒石英砂岩",
+      "thickness_m": 3.5,
+      "dip_angle_deg": 70.0,
+      "draw_dip_deg": 70.0
+    },
+    {
+      "unit_id": "D2",
+      "from_m": 35.0,
+      "to_m": 70.0,
+      "lithology": "灰黑色泥岩",
+      "thickness_m": 2.8,
+      "dip_angle_deg": 72.0,
+      "draw_dip_deg": 72.0
+    },
+    {
+      "unit_id": "D3",
+      "from_m": 70.0,
+      "to_m": 120.0,
+      "lithology": "灰白色中厚层灰岩",
+      "thickness_m": 4.2,
+      "dip_angle_deg": 68.0,
+      "draw_dip_deg": 68.0
+    }
+  ]
+}

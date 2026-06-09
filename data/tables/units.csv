@@ -1,0 +1,4 @@
+﻿section_id,unit_id,from_m,to_m,lithology_final,lithology_ai,lithology_human,color,texture,structure,thickness_m,dip_direction_deg,dip_angle_deg,contact_relation,yolo_features,qwen_interpretation,human_check,confidence,sample_id,photo_ids,notes
+D,D1,0,35,中粒石英砂岩,砂岩,中粒石英砂岩,浅黄色,中粒砂状结构,板状交错层理,3.5,145,70,整合接触,cross_bedding;bedding,浅黄色中粒砂岩发育交错层理,确认,高,D-01-R-01,P01;P02,下部砂岩层
+D,D2,35,70,灰黑色泥岩,泥岩,灰黑色泥岩,灰黑色,泥质结构,薄层状平行层理,2.8,150,72,整合接触,bedding,薄层泥岩发育平行层理,确认,高,D-02-R-01,P03,中部泥岩层
+D,D3,70,120,灰白色中厚层灰岩,灰岩,灰白色中厚层灰岩,灰白色,隐晶质结构,中厚层状,4.2,148,68,断层接触,bedding;joint,灰白色灰岩发育节理,人工稀盐酸验证后确认,中,D-03-R-01,P04;P05,上部灰岩层

@@ -1,0 +1,105 @@
+[
+  {
+    "section_id": "D",
+    "point_id": "P01",
+    "distance_m": 8.0,
+    "photo_id": "P01",
+    "photo_path": "data/photos/P01.jpg",
+    "detections": [
+      {
+        "class": "cross_bedding",
+        "confidence": 0.91,
+        "bbox": null,
+        "source": "observation_table"
+      },
+      {
+        "class": "bedding",
+        "confidence": 0.86,
+        "bbox": null,
+        "source": "observation_table"
+      }
+    ],
+    "model_path": "",
+    "mode": "table_fallback"
+  },
+  {
+    "section_id": "D",
+    "point_id": "P02",
+    "distance_m": 28.0,
+    "photo_id": "P02",
+    "photo_path": "data/photos/P02.jpg",
+    "detections": [
+      {
+        "class": "bedding",
+        "confidence": 0.8,
+        "bbox": null,
+        "source": "observation_table"
+      }
+    ],
+    "model_path": "",
+    "mode": "table_fallback"
+  },
+  {
+    "section_id": "D",
+    "point_id": "P03",
+    "distance_m": 48.0,
+    "photo_id": "P03",
+    "photo_path": "data/photos/P03.jpg",
+    "detections": [
+      {
+        "class": "bedding",
+        "confidence": 0.82,
+        "bbox": null,
+        "source": "observation_table"
+      }
+    ],
+    "model_path": "",
+    "mode": "table_fallback"
+  },
+  {
+    "section_id": "D",
+    "point_id": "P04",
+    "distance_m": 72.0,
+    "photo_id": "P04",
+    "photo_path": "data/photos/P04.jpg",
+    "detections": [
+      {
+        "class": "fault",
+        "confidence": 0.76,
+        "bbox": null,
+        "source": "observation_table"
+      },
+      {
+        "class": "joint",
+        "confidence": 0.7,
+        "bbox": null,
+        "source": "observation_table"
+      }
+    ],
+    "model_path": "",
+    "mode": "table_fallback"
+  },
+  {
+    "section_id": "D",
+    "point_id": "P05",
+    "distance_m": 98.0,
+    "photo_id": "P05",
+    "photo_path": "data/photos/P05.jpg",
+    "detections": [
+      {
+        "class": "joint",
+        "confidence": 0.88,
+        "bbox": null,
+        "source": "observation_table"
+      },
+      {
+        "class": "bedding",
+        "confidence": 0.72,
+        "bbox": null,
+        "source": "observation_table"
+      }
+    ],
+    "model_path": "",
+    "mode": "table_fallback"
+  }
+]

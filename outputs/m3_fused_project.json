@@ -1,0 +1,419 @@
+{
+  "section_info": [
+    {
+      "section_id": "D",
+      "section_name": "D路线AI辅助实测剖面",
+      "scale": "1:1000",
+      "start_point": "A点",
+      "end_point": "B点",
+      "azimuth_deg": "65",
+      "total_length_m": "120",
+      "date": "2026-08-28",
+      "team": "AI赛道示例组",
+      "notes": "示例数据可按比赛现场记录替换"
+    }
+  ],
+  "topography": [
+    {
+      "section_id": "D",
+      "distance_m": "0",
+      "elevation_m": "100",
+      "point_note": "起点"
+    },
+    {
+      "section_id": "D",
+      "distance_m": "15",
+      "elevation_m": "103",
+      "point_note": ""
+    },
+    {
+      "section_id": "D",
+      "distance_m": "30",
+      "elevation_m": "110",
+      "point_note": "坡肩"
+    },
+    {
+      "section_id": "D",
+      "distance_m": "45",
+      "elevation_m": "116",
+      "point_note": "坡顶"
+    },
+    {
+      "section_id": "D",
+      "distance_m": "60",
+      "elevation_m": "112",
+      "point_note": ""
+    },
+    {
+      "section_id": "D",
+      "distance_m": "75",
+      "elevation_m": "105",
+      "point_note": ""
+    },
+    {
+      "section_id": "D",
+      "distance_m": "90",
+      "elevation_m": "101",
+      "point_note": ""
+    },
+    {
+      "section_id": "D",
+      "distance_m": "105",
+      "elevation_m": "98",
+      "point_note": ""
+    },
+    {
+      "section_id": "D",
+      "distance_m": "120",
+      "elevation_m": "96",
+      "point_note": "终点"
+    }
+  ],
+  "units": [
+    {
+      "section_id": "D",
+      "unit_id": "D1",
+      "from_m": "0",
+      "to_m": "35",
+      "lithology_final": "中粒石英砂岩",
+      "lithology_ai": "砂岩",
+      "lithology_human": "中粒石英砂岩",
+      "color": "浅黄色",
+      "texture": "中粒砂状结构",
+      "structure": "板状交错层理",
+      "thickness_m": "3.5",
+      "dip_direction_deg": "145",
+      "dip_angle_deg": "70",
+      "contact_relation": "整合接触",
+      "yolo_features": "cross_bedding;bedding",
+      "qwen_interpretation": "浅黄色中粒砂岩发育交错层理",
+      "human_check": "确认",
+      "confidence": "高",
+      "sample_id": "D-01-R-01",
+      "photo_ids": "P01;P02",
+      "notes": "下部砂岩层"
+    },
+    {
+      "section_id": "D",
+      "unit_id": "D2",
+      "from_m": "35",
+      "to_m": "70",
+      "lithology_final": "灰黑色泥岩",
+      "lithology_ai": "泥岩",
+      "lithology_human": "灰黑色泥岩",
+      "color": "灰黑色",
+      "texture": "泥质结构",
+      "structure": "薄层状平行层理",
+      "thickness_m": "2.8",
+      "dip_direction_deg": "150",
+      "dip_angle_deg": "72",
+      "contact_relation": "整合接触",
+      "yolo_features": "bedding",
+      "qwen_interpretation": "薄层泥岩发育平行层理",
+      "human_check": "确认",
+      "confidence": "高",
+      "sample_id": "D-02-R-01",
+      "photo_ids": "P03",
+      "notes": "中部泥岩层"
+    },
+    {
+      "section_id": "D",
+      "unit_id": "D3",
+      "from_m": "70",
+      "to_m": "120",
+      "lithology_final": "灰白色中厚层灰岩",
+      "lithology_ai": "灰岩",
+      "lithology_human": "灰白色中厚层灰岩",
+      "color": "灰白色",
+      "texture": "隐晶质结构",
+      "structure": "中厚层状",
+      "thickness_m": "4.2",
+      "dip_direction_deg": "148",
+      "dip_angle_deg": "68",
+      "contact_relation": "断层接触",
+      "yolo_features": "bedding;joint",
+      "qwen_interpretation": "灰白色灰岩发育节理",
+      "human_check": "人工稀盐酸验证后确认",
+      "confidence": "中",
+      "sample_id": "D-03-R-01",
+      "photo_ids": "P04;P05",
+      "notes": "上部灰岩层"
+    }
+  ],
+  "structures": [
+    {
+      "section_id": "D",
+      "structure_id": "F1",
+      "type": "fault",
+      "distance_m": "72",
+      "from_m": "",
+      "to_m": "",
+      "dip_direction_deg": "130",
+      "dip_angle_deg": "65",
+      "evidence": "线性沟谷/岩石破碎/节理密集",
+      "yolo_result": "fault:0.76",
+      "qwen_interpretation": "可能为小型断层",
+      "human_check": "确认",
+      "final_result": "断层",
+      "photo_ids": "P04",
+      "notes": "控制D2与D3接触关系"
+    },
+    {
+      "section_id": "D",
+      "structure_id": "J1",
+      "type": "joint_zone",
+      "distance_m": "96",
+      "from_m": "90",
+      "to_m": "103",
+      "dip_direction_deg": "120",
+      "dip_angle_deg": "75",
+      "evidence": "节理密集但未见明显错断",
+      "yolo_result": "joint:0.88",
+      "qwen_interpretation": "可能为节理密集带",
+      "human_check": "确认",
+      "final_result": "节理密集带",
+      "photo_ids": "P05",
+      "notes": "局部构造现象"
+    }
+  ],
+  "observations": [
+    {
+      "section_id": "D",
+      "point_id": "P01",
+      "distance_m": "8",
+      "photo_id": "P01",
+      "photo_path": "data/photos/P01.jpg",
+      "sample_id": "D-01-R-01",
+      "field_lithology": "中粒石英砂岩",
+      "attitude": "145/70",
+      "dip_direction_deg": "145",
+      "dip_angle_deg": "70",
+      "yolo_result": "cross_bedding:0.91;bedding:0.86",
+      "qwen_description": "发育交错层理",
+      "human_note": "与D1层一致",
+      "used_in_section": "yes",
+      "yolo": {
+        "section_id": "D",
+        "point_id": "P01",
+        "distance_m": 8.0,
+        "photo_id": "P01",
+        "photo_path": "data/photos/P01.jpg",
+        "detections": [
+          {
+            "class": "cross_bedding",
+            "confidence": 0.91,
+            "bbox": null,
+            "source": "observation_table"
+          },
+          {
+            "class": "bedding",
+            "confidence": 0.86,
+            "bbox": null,
+            "source": "observation_table"
+          }
+        ],
+        "model_path": "",
+        "mode": "table_fallback"
+      },
+      "interpretation": {
+        "section_id": "D",
+        "point_id": "P01",
+        "distance_m": 8.0,
+        "lithology_ai": "中粒石英砂岩",
+        "features": "cross_bedding;bedding",
+        "qwen_description": "发育交错层理",
+        "interpretation": "中粒石英砂岩。发育交错层理 AI识别到的主要现象包括：cross_bedding;bedding。",
+        "human_note": "与D1层一致",
+        "used_in_section": "yes"
+      }
+    },
+    {
+      "section_id": "D",
+      "point_id": "P02",
+      "distance_m": "28",
+      "photo_id": "P02",
+      "photo_path": "data/photos/P02.jpg",
+      "sample_id": "",
+      "field_lithology": "中粒石英砂岩",
+      "attitude": "145/70",
+      "dip_direction_deg": "145",
+      "dip_angle_deg": "70",
+      "yolo_result": "bedding:0.80",
+      "qwen_description": "层理较清楚",
+      "human_note": "用于约束D1层上界",
+      "used_in_section": "yes",
+      "yolo": {
+        "section_id": "D",
+        "point_id": "P02",
+        "distance_m": 28.0,
+        "photo_id": "P02",
+        "photo_path": "data/photos/P02.jpg",
+        "detections": [
+          {
+            "class": "bedding",
+            "confidence": 0.8,
+            "bbox": null,
+            "source": "observation_table"
+          }
+        ],
+        "model_path": "",
+        "mode": "table_fallback"
+      },
+      "interpretation": {
+        "section_id": "D",
+        "point_id": "P02",
+        "distance_m": 28.0,
+        "lithology_ai": "中粒石英砂岩",
+        "features": "bedding",
+        "qwen_description": "层理较清楚",
+        "interpretation": "中粒石英砂岩。层理较清楚 AI识别到的主要现象包括：bedding。",
+        "human_note": "用于约束D1层上界",
+        "used_in_section": "yes"
+      }
+    },
+    {
+      "section_id": "D",
+      "point_id": "P03",
+      "distance_m": "48",
+      "photo_id": "P03",
+      "photo_path": "data/photos/P03.jpg",
+      "sample_id": "D-02-R-01",
+      "field_lithology": "灰黑色泥岩",
+      "attitude": "150/72",
+      "dip_direction_deg": "150",
+      "dip_angle_deg": "72",
+      "yolo_result": "bedding:0.82",
+      "qwen_description": "薄层状泥岩",
+      "human_note": "与D2层一致",
+      "used_in_section": "yes",
+      "yolo": {
+        "section_id": "D",
+        "point_id": "P03",
+        "distance_m": 48.0,
+        "photo_id": "P03",
+        "photo_path": "data/photos/P03.jpg",
+        "detections": [
+          {
+            "class": "bedding",
+            "confidence": 0.82,
+            "bbox": null,
+            "source": "observation_table"
+          }
+        ],
+        "model_path": "",
+        "mode": "table_fallback"
+      },
+      "interpretation": {
+        "section_id": "D",
+        "point_id": "P03",
+        "distance_m": 48.0,
+        "lithology_ai": "灰黑色泥岩",
+        "features": "bedding",
+        "qwen_description": "薄层状泥岩",
+        "interpretation": "灰黑色泥岩。薄层状泥岩 AI识别到的主要现象包括：bedding。",
+        "human_note": "与D2层一致",
+        "used_in_section": "yes"
+      }
+    },
+    {
+      "section_id": "D",
+      "point_id": "P04",
+      "distance_m": "72",
+      "photo_id": "P04",
+      "photo_path": "data/photos/P04.jpg",
+      "sample_id": "",
+      "field_lithology": "断层破碎带",
+      "attitude": "130/65",
+      "dip_direction_deg": "130",
+      "dip_angle_deg": "65",
+      "yolo_result": "fault:0.76;joint:0.70",
+      "qwen_description": "可能为小型断层",
+      "human_note": "现场见破碎带并确认断层",
+      "used_in_section": "yes",
+      "yolo": {
+        "section_id": "D",
+        "point_id": "P04",
+        "distance_m": 72.0,
+        "photo_id": "P04",
+        "photo_path": "data/photos/P04.jpg",
+        "detections": [
+          {
+            "class": "fault",
+            "confidence": 0.76,
+            "bbox": null,
+            "source": "observation_table"
+          },
+          {
+            "class": "joint",
+            "confidence": 0.7,
+            "bbox": null,
+            "source": "observation_table"
+          }
+        ],
+        "model_path": "",
+        "mode": "table_fallback"
+      },
+      "interpretation": {
+        "section_id": "D",
+        "point_id": "P04",
+        "distance_m": 72.0,
+        "lithology_ai": "断层破碎带",
+        "features": "fault;joint",
+        "qwen_description": "可能为小型断层",
+        "interpretation": "断层破碎带。可能为小型断层 AI识别到的主要现象包括：fault;joint。",
+        "human_note": "现场见破碎带并确认断层",
+        "used_in_section": "yes"
+      }
+    },
+    {
+      "section_id": "D",
+      "point_id": "P05",
+      "distance_m": "98",
+      "photo_id": "P05",
+      "photo_path": "data/photos/P05.jpg",
+      "sample_id": "D-03-R-01",
+      "field_lithology": "灰白色中厚层灰岩",
+      "attitude": "148/68",
+      "dip_direction_deg": "148",
+      "dip_angle_deg": "68",
+      "yolo_result": "joint:0.88;bedding:0.72",
+      "qwen_description": "灰岩发育节理",
+      "human_note": "与D3层一致",
+      "used_in_section": "yes",
+      "yolo": {
+        "section_id": "D",
+        "point_id": "P05",
+        "distance_m": 98.0,
+        "photo_id": "P05",
+        "photo_path": "data/photos/P05.jpg",
+        "detections": [
+          {
+            "class": "joint",
+            "confidence": 0.88,
+            "bbox": null,
+            "source": "observation_table"
+          },
+          {
+            "class": "bedding",
+            "confidence": 0.72,
+            "bbox": null,
+            "source": "observation_table"
+          }
+        ],
+        "model_path": "",
+        "mode": "table_fallback"
+      },
+      "interpretation": {
+        "section_id": "D",
+        "point_id": "P05",
+        "distance_m": 98.0,
+        "lithology_ai": "灰白色中厚层灰岩",
+        "features": "joint;bedding",
+        "qwen_description": "灰岩发育节理",
+        "interpretation": "灰白色中厚层灰岩。灰岩发育节理 AI识别到的主要现象包括：joint;bedding。",
+        "human_note": "与D3层一致",
+        "used_in_section": "yes"
+      }
+    }
+  ]
+}
